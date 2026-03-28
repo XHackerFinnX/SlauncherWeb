@@ -89,7 +89,7 @@ async function getLatestCommit() {
         console.error("❌ Ошибка при получении коммита:", error);
         // В случае ошибки можно показать запасной текст
         if (versionElement) {
-            versionElement.textContent = "";
+            versionElement.textContent = "Версия 1.6.2 доступна";
         }
     }
 }

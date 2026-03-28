@@ -1,2 +1,2 @@
 fastapi
-jinja2
+Jinja2
